@@ -31,5 +31,5 @@ app.use('/api/tasks', require('./routes/tasks'));
 
 // Run app in port
 app.listen(port, '0.0.0.0', () => {
-    console.log(`Server is run at ${PORT} port`)
+    console.log(`Server is run at ${port} port`)
 })
